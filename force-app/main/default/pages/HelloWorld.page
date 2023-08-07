@@ -1,0 +1,29 @@
+<!--
+ - Created by antho on 8/4/2023.
+ -->
+
+<apex:page id="HelloWorld" showHeader="false">
+    <apex:includeLightning />
+    <div id="lwccontainer"></div>
+    <script>
+        $Lightning.use("c:AppForVF",function(){
+            $Lightning.createComponent("c:tableauViz",{}, "lwccontainer",
+                function(cmp){
+
+                });
+
+        });
+    </script>
+
+<!--    <div id="lwccontainer1"></div>-->
+<!--    <script>-->
+<!--        $Lightning.use("c:AppForVF",function(){-->
+<!--            $Lightning.createComponent("c:errorUtils",{}, "lwccontainer1",-->
+<!--                function(cmp){-->
+
+<!--                });-->
+
+<!--        });-->
+<!--    </script>-->
+
+</apex:page>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ObjectFieldPickList</members>
+        <members>ObjectFieldPickListTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Tableau</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <types>
+        <members>tableauViz</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>TableauJSAPI</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>HelloWorld</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AppForVF</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <version>58.0</version>
+</Package>
